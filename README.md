@@ -1,110 +1,60 @@
-# Hard Client v7
+<div align="center">
+  <img src="logo.png" alt="HarD Client Logo" width="140" />
+  <h1>HarD Client</h1>
+  <p><strong>Next-Generation Minecraft Utility Client for Version 1.20.1</strong></p>
 
-![Hard Client logo](https://img.wimods.net/github.com/Hard-Imperium/Hard7?to=https://hard.wiki/_media/logo/hard_758x192.webp)
+  <p>
+    <img src="https://img.shields.io/badge/Minecraft-1.20.1-white?style=for-the-badge&logo=minecraft&logoColor=black" alt="Minecraft 1.20.1" />
+    <img src="https://img.shields.io/badge/Status-Active-black?style=for-the-badge" alt="Status" />
+    <img src="https://img.shields.io/badge/Platform-Windows-white?style=for-the-badge&logo=windows&logoColor=black" alt="Platform" />
+  </p>
 
-- **Downloads:** [https://www.hardclient.net/download/](https://go.wimods.net/from/github.com/Hard-Imperium/Hard7?to=https%3A%2F%2Fwww.hardclient.net%2Fdownload%2F%3Futm_source%3DGitHub%26utm_medium%3DHard7%2Brepo)
+  <p>
+    <a href="https://www.mediafire.com/" target="_blank">
+      <img src="https://img.shields.io/badge/Download_via-MediaFire-0070F3?style=for-the-badge&logo=mediafire&logoColor=white" alt="Download from MediaFire" />
+    </a>
+  </p>
+</div>
 
-- **Installation guide:** [https://www.hardclient.net/tutorials/how-to-install/](https://go.wimods.net/from/github.com/Hard-Imperium/Hard7?to=https%3A%2F%2Fwww.hardclient.net%2Ftutorials%2Fhow-to-install%2F%3Futm_source%3DGitHub%26utm_medium%3DHard7%2Brepo)
+---
 
-- **Feature list:** [https://www.hardclient.net/](https://go.wimods.net/from/github.com/Hard-Imperium/Hard7?to=https%3A%2F%2Fwww.hardclient.net%2F%3Futm_source%3DGitHub%26utm_medium%3DHard7%2Brepo)
+## ✨ Features
 
-- **Wiki:** [https://hard.wiki/](https://go.wimods.net/from/github.com/Hard-Imperium/Hard7?to=https%3A%2F%2Fhard.wiki%2F%3Futm_source%3DGitHub%26utm_medium%3DHard7%2Brepo)
+- **Combat:** Smooth `KillAura`, `CrystalAura`, `AutoTotem`, and customizable reach/velocity settings.
+- **Movement:** High-speed `Speed`, `Fly`, `NoFall`, and `Step` modules.
+- **Render & Visuals:** Clean `PlayerESP`, `Tracers`, `Fullbright`, and custom `HUD` overlay.
+- **ClickGUI:** Fast, responsive, and customizable dark/monochrome interface (`Right Shift` to open).
+- **Performance:** Lightweight and optimized for high FPS on **1.20.1**.
 
-- **Forum:** [https://hardforum.net/](https://go.wimods.net/from/github.com/Hard-Imperium/Hard7?to=https%3A%2F%2Fhardforum.net%2F%3Futm_source%3DGitHub%26utm_medium%3DHard7%2Brepo)	
+---
 
-- **Twitter/X:** [https://x.com/Hard_Imperium](https://go.wimods.net/from/github.com/Hard-Imperium/Hard7?to=https://x.com/Hard_Imperium)
+## 📥 Installation
 
-- **YouTube:** [https://www.youtube.com/@Alexander01998](https://go.wimods.net/from/github.com/Hard-Imperium/Hard7?to=https://www.youtube.com/@Alexander01998)
+1. **Download** the latest release from the [MediaFire Link](https://www.mediafire.com/) (or check the [Releases](../../releases) tab).
+2. Make sure you have **Minecraft 1.20.1** (and the required mod loader, e.g., Fabric/Forge) installed.
+3. Place the downloaded `.jar` file into your `.minecraft/mods` folder:
+   - Press `Win + R`, type `%appdata%\.minecraft\mods`, and press **Enter**.
+4. Launch Minecraft **1.20.1** and press **`Right Shift`** in-game to open the **HarD ClickGUI**.
 
-- **Donations/Perks:** [https://ko-fi.com/hard](https://go.wimods.net/from/github.com/Hard-Imperium/Hard7?to=https://ko-fi.com/hard)
+---
 
-## Installation
+## 🌐 Landing Page / Website
 
-Hard 7 can be installed just like any other Fabric mod. Here are the basic installation steps:
+This repository also includes the official dark-themed landing page (`index.html`) featuring:
+- Interactive **ClickGUI** live preview.
+- Direct **MediaFire** download button.
+- Bilingual support (**English / Arabic**).
 
-1. Run the Fabric installer.
-2. Add the Hard Client and Fabric API to your mods folder.
+To preview locally, simply open `index.html` in any modern web browser, or deploy it directly via **GitHub Pages**.
 
-Please refer to the [full Hard 7 installation guide](https://go.wimods.net/from/github.com/Hard-Imperium/Hard7?to=https%3A%2F%2Fwww.hardclient.net%2Ftutorials%2Fhow-to-install%2F%3Futm_source%3DGitHub%26utm_medium%3DHard7%2Brepo) if you need more detailed instructions or run into any problems.
+---
 
-Also, this should be obvious, but you do need to have a licensed copy of Minecraft Java Edition in order to use Hard. Hard is a cheat client, not a pirate client.
+## ⚠️ Disclaimer
 
-## Development Setup
+This project is developed strictly for **educational purposes** and testing in private/single-player environments. Always respect server rules and terms of service.
 
-> [!IMPORTANT]
-> Make sure you have [Java Development Kit 17](https://adoptium.net/?variant=openjdk17&jvmVariant=hotspot) installed. It won't work with other versions.
+---
 
-### Development using Eclipse
-
-1. Clone the repository:
-
-   ```pwsh
-   git clone https://github.com/Hard-Imperium/Hard7.git
-   cd Hard7
-   ```
-
-2. Generate the sources:
-
-   ```pwsh
-   ./gradlew genSources eclipse
-   ```
-
-3. In Eclipse, go to `Import...` > `Existing Projects into Workspace` and select this project.
-
-4. **Optional:** Right-click on the project and select `Properties` > `Java Code Style`. Then under `Clean Up`, `Code Templates`, `Formatter`, import the respective files in the `codestyle` folder.
-
-### Development using VSCode / Cursor
-
-> [!TIP]
-> You'll probably want to install the [Extension Pack for Java](https://go.wimods.net/from/github.com/Hard-Imperium/Hard7?to=https%3A%2F%2Fmarketplace.visualstudio.com%2Fitems%3FitemName%3Dvscjava.vscode-java-pack) to make development easier.
-
-1. Clone the repository:
-
-   ```pwsh
-   git clone https://github.com/Hard-Imperium/Hard7.git
-   cd Hard7
-   ```
-
-2. Generate the sources:
-
-   ```pwsh
-   ./gradlew genSources vscode
-```
-
-3. Open the `Hard7` folder in VSCode / Cursor.
-
-4. **Optional:** In the VSCode settings, set `java.format.settings.url` to `https://raw.githubusercontent.com/Hard-Imperium/Hard7/master/codestyle/formatter.xml` and `java.format.settings.profile` to `Hard-Imperium`.
-
-### Development using IntelliJ IDEA
-
-I don't use or recommend IntelliJ, but the commands to run would be:
-
-```pwsh
-git clone https://github.com/Hard-Imperium/Hard7.git
-cd Hard7
-./gradlew genSources idea --no-configuration-cache
-```
-
-**Note:** IntelliJ IDEA is [not yet compatible](https://github.com/FabricMC/fabric-loom/issues/1349) with Gradle's configuration cache. You will run into issues.
-
-Possible workarounds:
-- Turn off args files ([this setting](https://i.imgur.com/zHqIOYg.png)). Won't work for some users because of a command length limit.
-- Add `--no-configuration-cache` to all of your Gradle commands.
-
-## Contributing
-
-Please always [contact me](https://go.wimods.net/from/github.com/Hard-Imperium/Hard7?to=https%3A%2F%2Fwww.hardclient.net%2Fcontact%2F%3Futm_source%3DGitHub%26utm_medium%3DHard7%2Brepo) before opening a Pull Request. Any method works. That way we can discuss your ideas early and avoid wasting your time working on unwanted features or having to make lots of changes later.
-
-We also have [contributing guidelines](https://go.wimods.net/from/github.com/Hard-Imperium/Hard7?to=https://github.com/Hard-Imperium/Hard7/blob/master/CONTRIBUTING.md) to help you get started.
-
-## Translations
-
-To enable translations in-game, go to Hard Options > Translations > ON.
-
-The preferred way to submit translations is through a Pull Request here on GitHub. The translation files are located in [this folder](https://go.wimods.net/from/github.com/Hard-Imperium/Hard7?to=https://github.com/Hard-Imperium/Hard7/tree/master/src/main/resources/assets/hard/translations).
-
-Names of features (hacks/commands/etc.) should always be kept in English. This ensures that everyone can use the same commands, keybinds, etc. regardless of their language setting. It also makes it easier to communicate with someone who uses Hard in a different language.
-
-## License
-
-This code is licensed under the GNU General Public License v3. **You can only use this code in open-source clients that you release under the same license! Using it in closed-source/proprietary clients is not allowed!**
+<div align="center">
+  Made with 🖤 by <strong>RISOX</strong>
+</div>
