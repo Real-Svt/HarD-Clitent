@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: HardForum
+    url: https://hardforum.net/?utm_source=GitHub&utm_medium=Hard7+repo
+    about: For general discussion, support, memes, etc.
+  - name: Contact Alexander
+    url: https://www.hardclient.net/contact/?utm_source=GitHub&utm_medium=Hard7&utm_campaign=Issues&utm_content=Contact+Alexander
+    about: For anything that shouldn't be public.
