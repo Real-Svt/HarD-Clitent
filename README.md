@@ -10,7 +10,7 @@
   </p>
 
   <p>
-    <a href="https://www.mediafire.com/" target="_blank">
+    <a href="[https://www.mediafire.com/](https://github.com/Real-Svt/HarD-Clitent)" target="_blank">
       <img src="https://img.shields.io/badge/Download_via-MediaFire-0070F3?style=for-the-badge&logo=mediafire&logoColor=white" alt="Download from MediaFire" />
     </a>
   </p>
